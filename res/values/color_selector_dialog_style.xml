@@ -1,0 +1,119 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">  
+    
+    <!-- content linear layout -->
+    <style name="color_selector_dialog_style">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item> 
+	    <item name="android:orientation">vertical</item>   
+	    <item name="android:layout_margin">8dp</item>
+    </style>    
+
+    <!-- preview image -->
+    <style name="color_selector_preview_style">
+	    <item name="android:layout_width">320dp</item>
+	    <item name="android:layout_height">320dp</item>  
+	    <item name="android:layout_gravity">center</item>       
+    </style> 
+    
+    <!-- hex text view -->
+    <style name="color_selector_hex_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center</item>      
+	    <item name="android:textSize">16sp</item>     
+    </style> 
+    
+    <!-- color selector table layout -->
+    <style name="color_selector_colors_style">    
+	 	<item name="android:layout_width">fill_parent</item>
+	 	<item name="android:layout_height">wrap_content</item>
+	 	<item name="android:stretchColumns">1</item>
+	 	<item name="android:layout_marginTop">8dp</item>
+	</style>
+    
+    <!-- alpha label text view -->
+    <style name="color_selector_alpha_label_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center</item>      
+	    <item name="android:textSize">16sp</item>     
+    </style> 
+    
+    <!-- red label text view -->
+    <style name="color_selector_red_label_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center</item>      
+	    <item name="android:textSize">16sp</item>    
+    </style> 
+    
+    <!-- green label text view -->
+    <style name="color_selector_green_label_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center</item>      
+	    <item name="android:textSize">16sp</item>     
+    </style> 
+    
+    <!-- blue label text view -->
+    <style name="color_selector_blue_label_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center</item>      
+	    <item name="android:textSize">16sp</item>     
+    </style> 
+    
+    <!-- alpha value spinner -->
+    <style name="color_selector_alpha_style">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:max">255</item>      
+	    <item name="android:layout_marginTop">8dp</item>
+    </style> 
+    
+    <!-- red value spinner -->
+    <style name="color_selector_red_style">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:max">255</item>         
+    </style> 
+    
+    <!-- green value spinner -->
+    <style name="color_selector_green_style">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>   
+	    <item name="android:max">255</item>      
+    </style> 
+    
+    <!-- blue value spinner -->
+    <style name="color_selector_blue_style">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:max">255</item>         
+    </style> 
+    
+    <!-- buttons toolbar table layout -->
+    <style name="color_selector_buttons_style">    
+	 	<item name="android:layout_width">fill_parent</item>
+	 	<item name="android:layout_height">wrap_content</item>
+	 	<item name="android:stretchColumns">0,1</item>
+	 	<item name="android:layout_marginTop">8dp</item>
+	</style>
+    
+    <!-- cancel button -->
+    <style name="color_selector_dialog_cancel_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center_vertical</item>
+	    <item name="android:textSize">16sp</item>        
+    </style>        
+    
+    <!-- select button -->
+    <style name="color_selector_dialog_select_style">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:layout_gravity">center_vertical</item>
+	    <item name="android:textSize">16sp</item>   	      
+    </style>        
+    
+</resources>

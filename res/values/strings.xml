@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Color Selector</string>
+    <string name="color_selector_dialog_title">Select Color</string>
+    <string name="color_selector_dialog_alpha_label">Alpha</string>
+    <string name="color_selector_dialog_red_label">Red</string>    
+    <string name="color_selector_dialog_green_label">Green</string>
+    <string name="color_selector_dialog_blue_label">Blue</string>   
+    <string name="color_selector_dialog_button_cancel">Cancel</string>
+    <string name="color_selector_dialog_button_select">Select</string> 
+    
+</resources>

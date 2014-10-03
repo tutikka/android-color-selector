@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/color_selector_dialog_style">
+    
+    <ImageView
+        android:id="@+id/color_selector_preview"
+        style="@style/color_selector_preview_style"/>
+    
+    <TextView
+        android:id="@+id/color_selector_hex"
+        style="@style/color_selector_hex_style"/>
+    
+	<TableLayout
+	    android:id="@+id/color_selector_colors"
+	 	style="@style/color_selector_colors_style">
+	 	
+		<TableRow>
+	 	    
+		    <TextView
+		        android:id="@+id/color_selector_alpha_label"
+		        style="@style/color_selector_alpha_label_style"
+		        android:text="@string/color_selector_dialog_alpha_label"/>
+		    
+	    	<SeekBar 
+	        	android:id="@+id/color_selector_alpha"
+	        	style="@style/color_selector_alpha_style"/>
+					 
+		</TableRow>
+	 	
+		<TableRow>
+	 	    
+		    <TextView
+		        android:id="@+id/color_selector_red_label"
+		        style="@style/color_selector_red_label_style"
+		        android:text="@string/color_selector_dialog_red_label"/>
+		    
+		    <SeekBar 
+		        android:id="@+id/color_selector_red"
+		        style="@style/color_selector_red_style"/>
+					 
+		</TableRow>
+		
+		<TableRow>
+	 	    
+		    <TextView
+		        android:id="@+id/color_selector_green_label"
+		        style="@style/color_selector_green_label_style"
+		        android:text="@string/color_selector_dialog_green_label"/>
+		    
+		    <SeekBar 
+		        android:id="@+id/color_selector_green"
+		        style="@style/color_selector_green_style"/>
+					 
+		</TableRow>
+		
+		<TableRow>
+	 	    
+		    <TextView
+		        android:id="@+id/color_selector_blue_label"
+		        style="@style/color_selector_blue_label_style"
+		        android:text="@string/color_selector_dialog_blue_label"/>
+		    
+		    <SeekBar 
+		        android:id="@+id/color_selector_blue"
+		        style="@style/color_selector_blue_style"/>
+					 
+		</TableRow>
+		
+	</TableLayout>
+    
+	<TableLayout
+	    android:id="@+id/color_selector_buttons"
+	 	style="@style/color_selector_buttons_style">
+	 	
+		<TableRow>
+	 	    
+			<Button
+		    	android:id="@+id/color_selector_cancel"
+				style="@style/color_selector_dialog_cancel_style"		 		
+				android:text="@string/color_selector_dialog_button_cancel"/>
+				 	   
+			<Button
+		    	android:id="@+id/color_selector_select"
+				style="@style/color_selector_dialog_select_style"
+				android:text="@string/color_selector_dialog_button_select"/>
+				 
+	 	</TableRow>
+	 	
+	</TableLayout>
+
+</LinearLayout>
